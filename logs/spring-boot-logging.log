@@ -1,0 +1,30 @@
+2020-10-12 00:56:34,086 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogApplication on DESKTOP-MRMN85R with PID 13156 (C:\Users\Hasan\IdeaProjects\spring-examples\spring-boot-logging\target\classes started by Hasan in C:\Users\Hasan\IdeaProjects\spring-examples)
+2020-10-12 00:56:34,091 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-10-12 00:56:36,061 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8032 (http)
+2020-10-12 00:56:36,090 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-10-12 00:56:36,094 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-10-12 00:56:36,301 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-10-12 00:56:36,301 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2042 ms
+2020-10-12 00:56:36,452 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-12 00:56:36,605 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8032 (http) with context path ''
+2020-10-12 00:56:36,608 INFO org.springframework.boot.StartupInfoLogger [main] Started LogApplication in 3.742 seconds (JVM running for 5.45)
+2020-10-12 00:57:26,767 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8032-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-12 00:57:26,768 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8032-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-10-12 00:57:26,775 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8032-exec-1] Completed initialization in 7 ms
+2020-10-12 00:57:26,797 INFO com.haydikodlayalim.logging.api.LogEndpoint [http-nio-8032-exec-1] getDetails methodu başladı.
+2020-10-12 00:57:26,798 DEBUG com.haydikodlayalim.logging.api.LogEndpoint [http-nio-8032-exec-1] internalLogDetail methodu başladı.
+2020-10-12 01:04:31,121 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogApplication on DESKTOP-MRMN85R with PID 8296 (C:\Users\Hasan\IdeaProjects\spring-examples\spring-boot-logging\target\classes started by Hasan in C:\Users\Hasan\IdeaProjects\spring-examples)
+2020-10-12 01:04:31,126 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-10-12 01:04:32,355 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8032 (http)
+2020-10-12 01:04:32,364 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-10-12 01:04:32,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-10-12 01:04:32,460 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-10-12 01:04:32,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1284 ms
+2020-10-12 01:04:32,650 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-12 01:04:32,797 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8032 (http) with context path ''
+2020-10-12 01:04:32,800 INFO org.springframework.boot.StartupInfoLogger [main] Started LogApplication in 2.174 seconds (JVM running for 3.499)
+2020-10-12 01:04:38,786 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8032-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-12 01:04:38,787 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8032-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-10-12 01:04:38,795 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8032-exec-1] Completed initialization in 8 ms
+2020-10-12 01:04:38,822 INFO com.haydikodlayalim.logging.api.LogEndpoint [http-nio-8032-exec-1] getDetails methodu başladı.
+2020-10-12 01:04:38,822 DEBUG com.haydikodlayalim.logging.api.LogEndpoint [http-nio-8032-exec-1] internalLogDetail methodu başladı.

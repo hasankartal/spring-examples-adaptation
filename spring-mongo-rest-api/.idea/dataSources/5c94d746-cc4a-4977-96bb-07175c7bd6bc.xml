@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mongo-rest@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.17">
+    <root id="1">
+      <ServerVersion>4.0.5</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="Tododb"/>
+    <schema id="3" parent="1" name="admin"/>
+    <schema id="4" parent="1" name="config"/>
+    <schema id="5" parent="1" name="local"/>
+    <schema id="6" parent="1" name="mongo-rest">
+      <Current>1</Current>
+    </schema>
+    <schema id="7" parent="1" name="test"/>
+    <table id="8" parent="6" name="kullanici"/>
+    <column id="9" parent="8" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="10" parent="8" name="_class">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="11" parent="8" name="adi">
+      <Position>2</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="12" parent="8" name="soyadi">
+      <Position>3</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+  </database-model>
+</dataSource>

@@ -1,0 +1,1 @@
+insert into users (firstname, username, lastname) values ('Hasan', 'Kartal', 'Kartal');
