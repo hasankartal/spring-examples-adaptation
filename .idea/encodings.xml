@@ -20,5 +20,6 @@
     <file url="file://$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-facebook-login/src/main/java" charset="UTF-8" />
   </component>
 </project>

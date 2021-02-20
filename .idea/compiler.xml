@@ -7,25 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-datajpa-postgresql" />
+        <module name="spring-boot-jwt" />
         <module name="spring-boot-dockerazition" />
         <module name="spring-boot-webflux-mongo" />
         <module name="spring-boot-rest-template" />
+        <module name="spring-security-facebook-login" />
         <module name="spring-boot-redis-cache" />
-        <module name="spring-boot-pagination" />
+        <module name="spring-datajpa-postgresql" />
         <module name="spring-boot-kafka" />
         <module name="spring-elasticsearch" />
         <module name="spring-boot-exception-handling" />
-        <module name="spring-boot-logging" />
         <module name="spring-boot-aop" />
         <module name="spring-hello-world" />
         <module name="spring-boot-hazelcast-cache" />
         <module name="spring-boot-events" />
+        <module name="spring-boot-pagination" />
         <module name="spring-boot-rabbitmq" />
         <module name="spring-boot-websocket" />
         <module name="spring-boot-versioning" />
         <module name="spring-boot-flyway" />
-        <module name="spring-boot-jwt" />
+        <module name="spring-boot-logging" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -54,6 +55,7 @@
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-security-facebook-login" options="-parameters" />
     </option>
   </component>
 </project>

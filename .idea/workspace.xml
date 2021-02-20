@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2295cb1-f22c-4555-bbfc-20d407102ecc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/SpringBootJwtApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/api/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/api/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/auth/JwtTokenFiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/auth/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/auth/UserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-jwt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-facebook-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-facebook-login/spring-security-facebook-login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-facebook-login/src/main/java/com/haydikodlayalim/oauth/FacebookApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-facebook-login/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-facebook-login/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -164,16 +158,16 @@
       <command value="mvn clean install " />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootJwtApplication">
-    <configuration name="DataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-datajpa-postgresql" />
+  <component name="RunManager" selected="Spring Boot.FacebookApplication">
+    <configuration name="FacebookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-security-facebook-login" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.haydikodlayalim.*" />
+          <option name="PATTERN" value="com.haydikodlayalim.oauth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haydikodlayalim.DataJpaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.haydikodlayalim.oauth.FacebookApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,18 +266,18 @@
       <item itemvalue="Spring Boot.FlywayApplication" />
       <item itemvalue="Spring Boot.RestClientApplication" />
       <item itemvalue="Spring Boot.HazelcastApplication" />
-      <item itemvalue="Spring Boot.DataJpaApplication" />
       <item itemvalue="Spring Boot.LogApplication" />
       <item itemvalue="Spring Boot.WebFluxApplication" />
       <item itemvalue="Spring Boot.SpringBootJwtApplication" />
+      <item itemvalue="Spring Boot.FacebookApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FacebookApplication" />
         <item itemvalue="Spring Boot.SpringBootJwtApplication" />
         <item itemvalue="Spring Boot.WebFluxApplication" />
         <item itemvalue="Spring Boot.LogApplication" />
         <item itemvalue="Spring Boot.HazelcastApplication" />
-        <item itemvalue="Spring Boot.DataJpaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +363,8 @@
       <workItem from="1613131193903" duration="681000" />
       <workItem from="1613687146184" duration="4794000" />
       <workItem from="1613740907763" duration="619000" />
-      <workItem from="1613844184395" duration="2997000" />
+      <workItem from="1613844184395" duration="3603000" />
+      <workItem from="1613858598850" duration="2563000" />
     </task>
     <servers />
   </component>
@@ -394,65 +389,65 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="474" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613691270842" />
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1613848053899">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1613861611241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053899" />
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611241" />
     <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609242567351" />
-    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1613848053899">
+    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1613861611241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053899" />
+    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611241" />
     <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609242567351" />
-    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1613848053899">
+    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1613861611240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053899" />
+    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611240" />
     <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609242567351" />
-    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1613848053899">
+    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1613861611241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053899" />
+    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611241" />
     <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609242567351" />
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1613848065421">
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848065421" />
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609242578118" />
-    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1613848065421">
+    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848065421" />
+    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609242578118" />
-    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1613848065421">
+    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848065421" />
+    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609242578118" />
-    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1613848065421">
+    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848065421" />
+    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609242578118" />
-    <state width="1493" height="279" key="GridCell.Tab.2.bottom" timestamp="1613848053644">
+    <state width="1493" height="279" key="GridCell.Tab.2.bottom" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053644" />
+    <state width="1493" height="279" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609242567185" />
-    <state width="1493" height="279" key="GridCell.Tab.2.center" timestamp="1613848053644">
+    <state width="1493" height="279" key="GridCell.Tab.2.center" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053644" />
+    <state width="1493" height="279" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1609242567185" />
-    <state width="1493" height="279" key="GridCell.Tab.2.left" timestamp="1613848053643">
+    <state width="1493" height="279" key="GridCell.Tab.2.left" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053643" />
+    <state width="1493" height="279" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1609242567185" />
-    <state width="1493" height="279" key="GridCell.Tab.2.right" timestamp="1613848053644">
+    <state width="1493" height="279" key="GridCell.Tab.2.right" timestamp="1613861611049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613848053644" />
+    <state width="1493" height="279" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613861611049" />
     <state width="1493" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1609242567185" />
     <state x="592" y="349" key="ReplaceDuplicatesPrompt" timestamp="1613688633454">
       <screen x="0" y="0" width="1536" height="824" />
@@ -462,19 +457,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="193" key="chooseDestDirectoryDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613687597128" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1613844188477">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1613858601854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613844188477" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613858601854" />
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609347711744" />
     <state x="499" y="175" width="538" height="481" key="extract.method.dialog" timestamp="1613688630945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="175" width="538" height="481" key="extract.method.dialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613688630945" />
-    <state x="209" y="117" key="new project wizard" timestamp="1613687182932">
+    <state x="209" y="117" key="new project wizard" timestamp="1613860722601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="117" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613687182932" />
+    <state x="209" y="117" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613860722601" />
     <state x="209" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609240731011" />
   </component>
   <component name="XDebuggerManager">
@@ -559,11 +554,6 @@
           <url>file://$PROJECT_DIR$/spring-boot-webflux-mongo/src/main/java/com/haydikodlayalim/api/EmployeeController.java</url>
           <line>22</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot-jwt/src/main/java/com/haydikodlayalim/api/AuthController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
