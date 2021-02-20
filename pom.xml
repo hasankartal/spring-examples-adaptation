@@ -27,6 +27,7 @@
         <module>spring-boot-hazelcast-cache</module>
         <module>spring-boot-logging</module>
         <module>spring-boot-webflux-mongo</module>
+        <module>spring-boot-jwt</module>
     </modules>
 
 

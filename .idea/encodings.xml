@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/spring-boot-exception-handling/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-flyway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-hazelcast-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jwt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-logging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-pagination/src/main/java" charset="UTF-8" />
